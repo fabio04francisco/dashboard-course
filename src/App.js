@@ -1,10 +1,14 @@
 import React from 'react';
 
+import GlobalStyles from './styles/GlobalStyles';
+import Layout from './Layout';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Projeto Dashboard Course</h1>
-    </div>
+    <>
+      <Layout />
+      <GlobalStyles />
+    </>
   );
 }
 export default App;
