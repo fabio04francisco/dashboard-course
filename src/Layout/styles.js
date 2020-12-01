@@ -18,7 +18,7 @@ export const Grid = styled.div`
   width: 1440px;
 
   grid-template-columns: 200px 688px 552px;
-  grid-template-rows: 100vh;
+  grid-template-rows: minmax(900px, 100vh);
 
   grid-template-areas: 'SB MA ST';
 `;

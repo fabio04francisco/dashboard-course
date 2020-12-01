@@ -1,0 +1,68 @@
+{
+  "all_course": [
+    {
+      "name": "Learn Figma",
+      "teacher":"by Christopher Morgan",
+      "hours": "6",
+      "minuts": "30",
+      "avaliacao": "4.9",
+      "image": "figma"
+    },
+    {
+      "name": "Analog Photography",
+      "teacher":"by Gorden Norman",
+      "hours": "3",
+      "minuts": "15",
+      "avaliacao": "4.7",
+      "image": "photography"
+    },
+    {
+      "name": "Master Instagram",
+      "teacher":"by Sophie Gill",
+      "hours": "7",
+      "minuts": "40",
+      "avaliacao": "4.6",
+      "image": "instagram"
+    },
+    {
+      "name": "Basic of Drawing",
+      "teacher":"by Jean Tate",
+      "hours": "11",
+      "minuts": "30",
+      "avaliacao": "4.8",
+      "image": "drawing"
+    },
+    {
+      "name": "Photoshop - Essence",
+      "teacher":"by David Green",
+      "hours": "5",
+      "minuts": "35",
+      "avaliacao": "4.7",
+      "image": "photoshop"
+    },
+    {
+      "name": "Photoshop - Essence",
+      "teacher":"by David Green",
+      "hours": "5",
+      "minuts": "35",
+      "avaliacao": "4.7",
+      "image": "photoshop"
+    },
+    {
+      "name": "Photoshop - Essence",
+      "teacher":"by David Green",
+      "hours": "5",
+      "minuts": "35",
+      "avaliacao": "4.7",
+      "image": "photoshop"
+    },
+    {
+      "name": "Photoshop - Essence",
+      "teacher":"by David Green",
+      "hours": "5",
+      "minuts": "35",
+      "avaliacao": "4.7",
+      "image": "photoshop"
+    }
+  ]
+}
