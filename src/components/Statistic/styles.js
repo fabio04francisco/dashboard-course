@@ -78,4 +78,10 @@ export const BellIcon = styled(Bell)`
 export const ArrowDownIcon = styled(ArrowDown)`
   height: 4px;
   width: 7px;
+
+  cursor: pointer;
+
+  &:hover {
+    opacity: var(--opacity);
+  }
 `;
