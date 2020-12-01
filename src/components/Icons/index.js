@@ -1,14 +1,17 @@
-import CourseIcon from './CourseIcon';
-import EmailIcon from './EmailIcon';
+import CourseIcon from './Course';
+import EmailIcon from './Email';
 import HomeIcon from './HomeIcon';
 import LogoCourse from './LogoCourseSVG';
 import LogoffIcon from './LogoffIcon';
-import SettingsIcon from './SettingsIcon';
-import UserIcon from './UserIcon';
-import LeftArrowIcon from './LeftArrow';
-import RightArrowIcon from './RightArrow';
+import SettingsIcon from './Settings';
+import UserIcon from './User';
+import LeftArrowIcon from './ArrowLeft';
+import RightArrowIcon from './ArrowRight';
 import TimeIcon from './Time';
 import FlameIcon from './Flame';
+import ArrowDownIcon from './ArrowDown';
+import SearchIcon from './Search';
+import BellIcon from './Bell';
 
 export {
   LogoCourse,
@@ -22,4 +25,7 @@ export {
   RightArrowIcon as RightArrow,
   TimeIcon as Time,
   FlameIcon as Flame,
+  ArrowDownIcon as ArrowDown,
+  SearchIcon as Serach,
+  BellIcon as Bell,
 };
