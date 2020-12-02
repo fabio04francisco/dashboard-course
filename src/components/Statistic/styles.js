@@ -8,6 +8,7 @@ export const Container = styled.div`
   grid-area: ST;
 
   display: flex;
+  flex-direction: column;
   height: 100%;
   width: 100%;
 
@@ -84,4 +85,13 @@ export const ArrowDownIcon = styled(ArrowDown)`
   &:hover {
     opacity: var(--opacity);
   }
+`;
+
+export const StatusBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  height: 106px;
+  width: 439px;
 `;

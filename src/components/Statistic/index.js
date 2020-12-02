@@ -5,9 +5,11 @@ import {
   SearchIcon,
   BellIcon,
   ArrowDownIcon,
+  StatusBox,
 } from './styles';
 
 import Avatar from '../Avatar';
+import Card from '../Card';
 
 function Statistic() {
   return (
@@ -24,6 +26,11 @@ function Statistic() {
           <ArrowDownIcon />
         </div>
       </NavigationStatistic>
+
+      <StatusBox>
+        <Card category="Courses Completed" amount="11" />
+        <Card category="Courses in Progress" amount="4" />
+      </StatusBox>
     </Container>
   );
 }
