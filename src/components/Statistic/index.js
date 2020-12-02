@@ -1,11 +1,13 @@
 import React from 'react';
 import {
   Container,
-  NavigationStatistic,
+  StatisticNavigation,
   SearchIcon,
   BellIcon,
   ArrowDownIcon,
   StatusBox,
+  StatisticSection,
+  ListOptions,
 } from './styles';
 
 import Avatar from '../Avatar';
@@ -14,7 +16,7 @@ import Card from '../Card';
 function Statistic() {
   return (
     <Container>
-      <NavigationStatistic>
+      <StatisticNavigation>
         <div>
           <SearchIcon />
           <input type="text" placeholder="Search" />
@@ -25,12 +27,28 @@ function Statistic() {
           <Avatar />
           <ArrowDownIcon />
         </div>
-      </NavigationStatistic>
+      </StatisticNavigation>
 
       <StatusBox>
         <Card category="Courses Completed" amount="11" />
         <Card category="Courses in Progress" amount="4" />
       </StatusBox>
+
+      <StatisticSection>
+        <h2>Your Statistics</h2>
+
+        <ListOptions>
+          <ul>
+            <li className="active">Learning Hours</li>
+            <li> My Courses</li>
+          </ul>
+
+          <div>
+            <strong>Weekly</strong>
+            <ArrowDownIcon />
+          </div>
+        </ListOptions>
+      </StatisticSection>
     </Container>
   );
 }

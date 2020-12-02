@@ -19,7 +19,8 @@ export default createGlobalStyle`
 
   :root {
     --background-color: #FFFFFF;
-    --background-secundary: #F5F5F7; 
+    --background-secundary: #F5F5F7;
+    --background-secundary-hover: #e0e0e0;
     --primary: #0C0B0B;
     --secondary: #2f3136;
     --iconMenu: #FFFFFF;

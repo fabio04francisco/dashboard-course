@@ -206,7 +206,7 @@ export const ListOptions = styled.ul`
     }
   }
 
-  .active {
+  & .active {
     opacity: 1;
   }
 `;
