@@ -64,6 +64,32 @@ export const StatisticNavigation = styled.div`
         filter: grayscale(100%);
       }
     }
+
+    > .notification {
+      position: relative;
+
+      &::before {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #f45b5b;
+        width: 16px;
+        height: 16px;
+
+        position: absolute;
+        bottom: 23px;
+        right: -3px;
+
+        border-radius: 50%;
+        border: 2px solid var(--background-color);
+
+        font-size: 10px;
+        color: var(--background-color);
+
+        content: '${(props) => props.notification && props.notification}';
+      }
+    }
   }
 `;
 export const SearchIcon = styled(Search)`
@@ -100,7 +126,7 @@ export const StatisticSection = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 40px;
-  height: 106px;
+  height: 378px;
   width: 439px;
 
   > h2 {
@@ -165,5 +191,16 @@ export const ListOptions = styled.div`
     font-size: 13px;
     font-family: var(--font-primary);
     margin-right: 6px;
+  }
+`;
+
+export const GraphicSection = styled.div`
+  display: flex;
+  height: 266px;
+  width: 100%;
+  margin-top: 32px;
+
+  > img {
+    width: 100%;
   }
 `;

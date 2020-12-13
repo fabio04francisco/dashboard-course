@@ -8,22 +8,29 @@ import {
   StatusBox,
   StatisticSection,
   ListOptions,
+  GraphicSection,
 } from './styles';
+
+import graphicImage from '../../assets/graphic.svg';
 
 import Avatar from '../Avatar';
 import Card from '../Card';
+import FooterPremiumBanner from '../FooterPremiumBanner';
 
 function Statistic() {
   return (
     <Container>
-      <StatisticNavigation>
+      <StatisticNavigation notification="1">
         <div>
           <SearchIcon />
           <input type="text" placeholder="Search" />
         </div>
 
         <div>
-          <BellIcon />
+          <div className="notification">
+            <BellIcon />
+          </div>
+
           <Avatar />
           <ArrowDownIcon />
         </div>
@@ -48,7 +55,12 @@ function Statistic() {
             <ArrowDownIcon />
           </div>
         </ListOptions>
+
+        <GraphicSection>
+          <img src={graphicImage} alt="Grafico Estatisticas Cursos" />
+        </GraphicSection>
       </StatisticSection>
+      <FooterPremiumBanner />
     </Container>
   );
 }
