@@ -99,7 +99,7 @@ function Main() {
           </div>
 
           <div>
-            <button type="button"> Continue </button>
+            <button type="button">Continue</button>
           </div>
         </InfoCourse>
 
